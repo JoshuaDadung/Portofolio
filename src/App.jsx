@@ -1,9 +1,11 @@
-import Foto from './assets/Foto.jpg'
+import Profil from './assets/Profil.jpg'
 import TamnelRisk from './assets/TamnelRisk.jpg'
 import TamnelFruit from './assets/TamnelFruit.jpg'
 import TamnelKlafit from './assets/TamnelKlafit.jpg'
 import TamnelWireframe from './assets/TamnelWireframe.jpg'
 import TamnelTabungjo from './assets/Tamneltabungjo.jpg'
+import davis from './assets/davis.jpg'
+import webdavis from './assets/webdavis.jpg'
 import './App.css'
 
 function App() {
@@ -59,7 +61,7 @@ function App() {
         <div className="about-container">
           <div className="about-left">
             <img
-              src={Foto}
+              src={Profil}
               alt="Joshua Profile"
               className="about-image"
             />
@@ -195,11 +197,11 @@ function App() {
 
             <p>
               Dashboard analisis risiko berbasis PHP dan MySQL
-              dengan visualisasi data dan matrix risk.
+              dengan visualisasi data dan matrix risk untuk mendukung pengambilan keputusan perusahaan.
             </p>
 
             <a
-              href="https://github.com/s22210012-stack/FinnalProject-RM.git"
+              href="https://github.com/JoshuaDadung/RiskManagement.git"
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
@@ -218,12 +220,11 @@ function App() {
             <h3>UI Design Aplikasi "Klafit"</h3>
 
             <p>
-              Sistem presensi digital berbasis web untuk sekolah
-              menggunakan teknologi modern.
+              Mendesain antarmuka aplikasi Klafit menggunakan Figma untuk membantu pengguna memantau aktivitas kebugaran, pola makan, dan gaya hidup sehat.
             </p>
 
             <a
-              href="https://www.figma.com/proto/SkfttdfU8RetqdXs0Af0rF/Project-Finnal-UI-UX?node-id=8-3&t=vZxZInNydfkdiQX0-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=544%3A1091&show-proto-sidebar=1"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
@@ -239,14 +240,14 @@ function App() {
               className="project-image"
             />
 
-            <h3>UI Design E-Commerce</h3>
+            <h3>UI Design E-Commerce: "Fruit Paradise"</h3>
 
             <p>
-              Website portfolio modern menggunakan React dan Tailwind CSS.
+              Merancang desain antarmuka aplikasi e-commerce penjualan buah menggunakan Figma dengan mengutamakan kemudahan navigasi, estetika visual, dan pengalaman pengguna.
             </p>
 
             <a
-              href="https://www.figma.com/proto/8kwQDRnrdVneXHL8gvaYGe/Project-Finnal?node-id=251-3028&t=kroQmLOEa52FKoGb-1&scaling=scale-down&content-scaling=fixed&page-id=251%3A3027&starting-point-node-id=251%3A3028"
+              href="https://www.figma.com/proto/3ULuby84yG29RJGLOYgFc6/Design-Fruit-Paradise?t=IVdwC1X1I6ierbJk-1"
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
@@ -271,12 +272,12 @@ function App() {
             </p>
 
             <a
-              href="https://github.com/..."
+              href="https://whimsical.com/joshcd/wireframe-tabungjo-8MNVsQiw16pDaYYNbJaHiZ@or4CdLRbgixsRnG7mZfweKUNNeSCA9y9qxLx7Kopx"
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
             >
-              View GitHub
+              View Wireframe
             </a>
           </div>
 
@@ -290,30 +291,111 @@ function App() {
             <h3>Design Aplikasi TabungJo!</h3>
 
             <p>
-              Desain UI/UX aplikasi TabungJo! yang membantu pengguna dalam
+              Desain UI aplikasi TabungJo! yang membantu pengguna dalam
               mengelola tabungan secara digital dengan tampilan modern,
               intuitif, dan mudah digunakan.
             </p>
 
             <a
-              href="https://github.com/..."
+              href="https://www.figma.com/proto/OcO3LB2qH9bepAEjNK0ro7/Design-TabungJo?node-id=0-1&t=IVdwC1X1I6ierbJk-1"
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
             >
-              View GitHub
+              View Prototipe
+            </a>
+          </div>
+
+          <div className="project-card">
+            <img
+              src={davis}
+              alt="Project 7"
+              className="project-image"
+            />
+
+            <h3>Sales Analytics Dashboard</h3>
+
+            <p>
+              Dashboard ini dibuatmenggunakan Looker Studio untuk memvisualisasikan data penjualan. Dashboard ini menyajikan indikator kinerja utama (KPI), tren penjualan, metode pembayaran, serta analisis profit guna mendukung pengambilan keputusan berbasis data.
+            </p>
+
+            <a
+              href="https://datastudio.google.com/reporting/ce34b7db-f70d-4593-bfd4-fe5958682627"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+            >
+              View Dashboard
+            </a>
+          </div>
+
+          <div className="project-card">
+            <img
+              src={webdavis}
+              alt="Project 8"
+              className="project-image"
+            />
+
+            <h3>Flight Ticket Sales Dashboard</h3>
+
+            <p>
+              Mengembangkan website visualisasi data berbasis React dengan Chart.js untuk menampilkan dashboard penjualan tiket pesawat secara interaktif.
+            </p>
+
+            <a
+              href="https://github.com/JoshuaDadung/Dashboard-Davis.git"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+            >
+              View Project
             </a>
           </div>
         </div>
       </section>
 
-      {/* Contact */}
+            {/* Contact */}
       <section className="contact-section" id="contact">
         <h2>Contact Me</h2>
 
-        <p>Email: joshuacdadung@gmail.com</p>
-        <p>Instagram: @joshcdadung</p>
-        <p>LinkedIn: www.linkedin.com/in/joshua-clyford-dadung-7362b6411</p>
+        <p className="contact-subtitle">
+          Feel free to contact me for collaboration, job opportunities, or project discussions.
+        </p>
+
+        <div className="contact-container">
+          <div className="contact-card">
+            <span>📧</span>
+            <h3>Email</h3>
+            <p>joshuacdadung@gmail.com</p>
+            <a href="mailto:joshuacdadung@gmail.com">Send Email</a>
+          </div>
+
+          <div className="contact-card">
+            <span>📸</span>
+            <h3>Instagram</h3>
+            <p>@joshcdadung</p>
+            <a
+              href="https://www.instagram.com/joshcdadung"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit Instagram
+            </a>
+          </div>
+
+          <div className="contact-card">
+            <span>💼</span>
+            <h3>LinkedIn</h3>
+            <p>Joshua Clyford Dadung</p>
+            <a
+              href="https://www.linkedin.com/in/joshua-clyford-dadung-7362b6411"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit LinkedIn
+            </a>
+          </div>
+        </div>
       </section>
     </>
   )
