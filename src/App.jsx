@@ -7,6 +7,12 @@ import TamnelTabungjo from './assets/Tamneltabungjo.jpg'
 import davis from './assets/davis.jpg'
 import webdavis from './assets/webdavis.jpg'
 import './App.css'
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 function App() {
   return (
@@ -47,8 +53,8 @@ function App() {
               View Projects
             </a>
 
-            <a href="#contact" className="btn-secondary">
-              Contact Me
+            <a href="https://drive.google.com/file/d/1g8h_G4wW5Kr3UwEoYIYBhvrMUXGk8_ML/view?usp=drive_link" className="btn-secondary">
+              Download CV
             </a>
           </div>
         </div>
@@ -68,7 +74,7 @@ function App() {
           </div>
 
           <div className="about-right">
-            <h3>Joshua Clyford Dadung</h3>
+            <h3>Joshua Clyford Dadung, S.Kom</h3>
 
             <p className="about-description">
               Saya merupakan lulusan Universitas Klabat sarjana ilmu komputer jurusan sistem informasi yang memiliki fokus pada bagian UI Design, Multimedia, Digital Marketing,Business Intelligence, dan Social media Analytics. Saya memiliki kemampuan berkomunikasi yang baik, disiplin, serta mampu bertanggung jawab untuk mencapai tujuan pekerjaan. Secara langsung saya bisa bekerja secara personal maupun tim, teliti dalam menganalisis, serta berorientasi pada solusi dan hasil.
@@ -108,7 +114,7 @@ function App() {
           <div className="skills-progress">
             <div className="progress-item">
               <div className="progress-header">
-                <span>Social Media Content</span>
+                <span>Social Media</span>
                 <span>90%</span>
               </div>
               <div className="progress-bar">
@@ -128,8 +134,8 @@ function App() {
 
             <div className="progress-item">
               <div className="progress-header">
-                <span>JavaScript</span>
-                <span>70%</span>
+                <span>Business Intelligence</span>
+                <span>85%</span>
               </div>
               <div className="progress-bar">
                 <div className="progress-fill js"></div>
@@ -354,48 +360,113 @@ function App() {
         </div>
       </section>
 
-            {/* Contact */}
+                  {/* Contact */}
       <section className="contact-section" id="contact">
+
         <h2>Contact Me</h2>
 
         <p className="contact-subtitle">
-          Feel free to contact me for collaboration, job opportunities, or project discussions.
+          Feel free to contact me.
         </p>
 
         <div className="contact-container">
+
+          {/* Email */}
           <div className="contact-card">
-            <span>📧</span>
+
+            <div className="contact-icon">
+              <FaEnvelope />
+            </div>
+
             <h3>Email</h3>
-            <p>joshuacdadung@gmail.com</p>
-            <a href="mailto:joshuacdadung@gmail.com">Send Email</a>
+
+            <p>
+              joshuacdadung@gmail.com
+            </p>
+
+            <a
+              href="mailto:joshuacdadung@gmail.com"
+              className="contact-btn"
+            >
+              Send Email
+            </a>
+
           </div>
 
+          {/* Instagram */}
           <div className="contact-card">
-            <span>📸</span>
+
+            <div className="contact-icon">
+              <FaInstagram />
+            </div>
+
             <h3>Instagram</h3>
-            <p>@joshcdadung</p>
+
+            <p>
+              @joshcdadung
+            </p>
+
             <a
-              href="https://www.instagram.com/joshcdadung"
+              href="https://instagram.com/joshcdadung"
               target="_blank"
               rel="noopener noreferrer"
+              className="contact-btn"
             >
-              Visit Instagram
+              Visit Profile
             </a>
+
           </div>
 
+          {/* LinkedIn */}
           <div className="contact-card">
-            <span>💼</span>
+
+            <div className="contact-icon">
+              <FaLinkedin />
+            </div>
+
             <h3>LinkedIn</h3>
-            <p>Joshua Clyford Dadung</p>
+
+            <p>
+              Joshua Clyford Dadung
+            </p>
+
             <a
               href="https://www.linkedin.com/in/joshua-clyford-dadung-7362b6411"
               target="_blank"
               rel="noopener noreferrer"
+              className="contact-btn"
             >
-              Visit LinkedIn
+              Connect
             </a>
+
           </div>
+
+          {/* GitHub */}
+          <div className="contact-card">
+
+            <div className="contact-icon">
+              <FaGithub />
+            </div>
+
+            <h3>GitHub</h3>
+
+            <p>
+              JoshuaDadung
+            </p>
+
+            <a
+              href="https://github.com/JoshuaDadung"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-btn"
+            >
+              View GitHub
+            </a>
+
+          </div>
+
         </div>
+
       </section>
     </>
   )
