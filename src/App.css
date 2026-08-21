@@ -259,7 +259,7 @@ section h2 {
 }
 
 .progress-fill.css {
-  width: 75%;
+  width: 80%;
 }
 
 .progress-fill.js {
@@ -267,7 +267,7 @@ section h2 {
 }
 
 .progress-fill.react {
-  width: 70%;
+  width: 80%;  
 }
 
 .progress-fill.ui {
