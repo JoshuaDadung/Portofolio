@@ -255,15 +255,15 @@ section h2 {
 }
 
 .progress-fill.social {
-  width: 90%;
-}
-
-.progress-fill.css {
   width: 85%;
 }
 
-.progress-fill.js {
+.progress-fill.css {
   width: 75%;
+}
+
+.progress-fill.js {
+  width: 90%;
 }
 
 .progress-fill.react {
@@ -271,11 +271,11 @@ section h2 {
 }
 
 .progress-fill.ui {
-  width: 88%;
+  width: 90%;
 }
 
 .progress-fill.video {
-  width: 82%;
+  width: 90%;
 }
 
 /* TOOLS */

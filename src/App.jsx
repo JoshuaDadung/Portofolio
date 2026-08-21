@@ -35,7 +35,7 @@ function App() {
       {/* Hero Section */}
       <section className="hero-section" id="home">
         <div className="hero-center">
-          <p className="hero-subtitle">Welcome To My Portfolio</p>
+          <p className="hero-subtitle">Welcome To My Portofolio</p>
 
           <h1 className="hero-title">Joshua Clyford Dadung</h1>
 
@@ -90,6 +90,7 @@ function App() {
               <div className="info-card">
                 <span>💻 Bidang</span>
                 <p>Creative Digital</p>
+                <p>Information Technology</p>
               </div>
 
               <div className="info-card">
@@ -115,7 +116,7 @@ function App() {
             <div className="progress-item">
               <div className="progress-header">
                 <span>Social Media</span>
-                <span>90%</span>
+                <span>85%</span>
               </div>
               <div className="progress-bar">
                 <div className="progress-fill social"></div>
@@ -135,7 +136,7 @@ function App() {
             <div className="progress-item">
               <div className="progress-header">
                 <span>Business Intelligence</span>
-                <span>85%</span>
+                <span>90%</span> 
               </div>
               <div className="progress-bar">
                 <div className="progress-fill js"></div>
@@ -155,7 +156,7 @@ function App() {
             <div className="progress-item">
               <div className="progress-header">
                 <span>UI Design</span>
-                <span>88%</span>
+                <span>90%</span>
               </div>
               <div className="progress-bar">
                 <div className="progress-fill ui"></div>
@@ -165,7 +166,7 @@ function App() {
             <div className="progress-item">
               <div className="progress-header">
                 <span>Video Editing</span>
-                <span>88%</span>
+                <span>90%</span>
               </div>
               <div className="progress-bar">
                 <div className="progress-fill video"></div>
