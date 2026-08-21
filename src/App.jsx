@@ -44,7 +44,7 @@ function App() {
           </h2>
 
           <p className="hero-description">
-            Passionate about Web Development,UI Design, Social Media, Business Intelligence,
+            Passionate about Data Analyst, UI Design, Social Media, Business Intelligence,
             and Creative Digital.
           </p>
 
