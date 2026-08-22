@@ -126,7 +126,7 @@ function App() {
             <div className="progress-item">
               <div className="progress-header">
                 <span>CSS</span>
-                <span>75%</span>
+                <span>80%</span>
               </div>
               <div className="progress-bar">
                 <div className="progress-fill css"></div>
@@ -146,7 +146,7 @@ function App() {
             <div className="progress-item">
               <div className="progress-header">
                 <span>React JS</span>
-                <span>70%</span>
+                <span>*0%</span>
               </div>
               <div className="progress-bar">
                 <div className="progress-fill react"></div>
