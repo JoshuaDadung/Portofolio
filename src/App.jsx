@@ -231,7 +231,7 @@ function App() {
             </p>
 
             <a
-              href=""
+              href="https://www.figma.com/proto/TvfPA3hGh2YrwVVubu9Cvk/Design-Klafit?node-id=1-3794&t=GS66LM8o9D05smFW-1"
               target="_blank"
               rel="noopener noreferrer"
               className="project-btn"
