@@ -53,7 +53,7 @@ function App() {
               View Projects
             </a>
 
-            <a href="https://drive.google.com/file/d/1p4kydPTEAw4X3ToTgO32CXDcLh3HTVWL/view?usp=sharing" className="btn-secondary">
+            <a href="https://drive.google.com/file/d/1rzvMAPNWNkw4Gj3XjXUzukYEXl_zcZnZ/view?usp=sharing" className="btn-secondary">
               Download CV
             </a>
           </div>
